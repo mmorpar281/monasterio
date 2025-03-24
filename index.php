@@ -83,7 +83,7 @@
         // Redirigir al archivo config.php con el idioma seleccionado
         botonIniciar.addEventListener('click', () => {
             const idiomaSeleccionado = selectIdioma.value;
-            window.location.href = `config.php?idioma=${idiomaSeleccionado}`;
+            window.location.href = `monasterio.php?idioma=${idiomaSeleccionado}`;
         });
     </script>
 </body>
